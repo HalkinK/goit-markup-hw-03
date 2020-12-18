@@ -31,6 +31,14 @@ p {
   margin-bottom: 0;
 }
 
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
 /* Common */
 
 .container {
@@ -178,6 +186,10 @@ h2 {
 
 /* Advantages section */
 .advant-title {
+  margin-bottom: 10px;
+
+  width: 270px;
+
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -191,10 +203,24 @@ p {
   color: var(--sec-text-color);
 }
 
+.advantage {
+  display: flex;
+  margin: 94px auto;
+  padding-left: 0;
+}
+
+.advantage > .item:not(:last-child) {
+  margin-right: 30px;
+}
+}
+
 .advant-descr {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+
+  width: 270px;
+  
 }
 
 /* Team section */
