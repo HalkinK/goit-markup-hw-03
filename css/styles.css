@@ -42,7 +42,7 @@ p {
 /* Common */
 
 .container {
-  width: 1170px;
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding: 0 15px;
@@ -212,7 +212,6 @@ p {
 .advantage > .item:not(:last-child) {
   margin-right: 30px;
 }
-}
 
 .advant-descr {
   font-size: 14px;
@@ -220,11 +219,35 @@ p {
   letter-spacing: 0.03em;
 
   width: 270px;
-  
+}
+
+/* Doings section */
+
+.doings-list {
+  display: flex;
+  margin: 94px auto;
+  padding-left: 0;
+}
+
+.doings-list > .item:not(:last-child) {
+  margin-right: 30px;
 }
 
 /* Team section */
+.team-list {
+  display: flex;
+  margin: 94px auto;
+  padding-left: 0;
+}
+
+.team-list > .item:not(:last-child) {
+  margin-right: 30px;
+}
+
 .member {
+  margin-top: 30px;
+  margin-bottom: 10px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
