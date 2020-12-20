@@ -322,6 +322,8 @@ p {
   outline: transparent;
   border: none;
 
+  padding: 6px 22px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
@@ -332,13 +334,13 @@ p {
   background-color: var(--main-backgroung-color);
 }
 
-.portfolio-buttons > .portfolio-button:not(:last-child) {
-  margin-left: 52px;
+.portfolio-buttons > .item:not(:last-child) {
+  margin-right: 8px;
 }
 
-.portfolio-buttons > .item:not(:last-child) {
-  margin-left: 8px;
-}
+/* .portfolio-buttons > .portfolio-button:not(:last-child) {
+  margin-right: 52px;
+} */
 
 .portfolio-button:hover,
 .portfolio-button:focus {
