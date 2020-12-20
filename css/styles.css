@@ -271,16 +271,25 @@ p {
 
 .footer-logo {
   display: inline-block;
-  margin-top: 60px;
+  padding-top: 60px;
   margin-bottom: 20px;
   margin-right: auto;
+  padding-right: auto;
 }
 
 .white-text {
+  margin-bottom: 9px;
+
   color: #ffffff;
 }
 
+.footer-mail {
+  margin-bottom: 9px;
+}
+
 .footer-addr {
+  display: block;
+  position: left;
   margin-left: auto;
   padding-bottom: 60px;
 
@@ -295,11 +304,16 @@ p {
 }
 
 /* Portfolio */
+.portfolio-section {
+  padding-top: 114px;
+  padding-bottom: 74px;
+}
+
 .portfolio-buttons {
   display: flex;
   justify-content: center;
-  margin-top: 152px;
-  margin-bottom: 56px;
+  margin-bottom: 50px;
+  margin-top: 0;
   padding-left: 0;
 }
 
@@ -365,9 +379,17 @@ p {
   margin-bottom: 0;
 }
 
+.project-descr {
+  padding: 20px 24px;
+
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+}
+
 .project-name {
-  margin-top: 20px;
-  margin-bottom: 4px;
+  /* margin-top: 20px;
+  margin-bottom: 4px; */
 
   font-weight: 700;
   font-size: 18px;
@@ -381,8 +403,4 @@ p {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-}
-
-.portfolio-section {
-  margin-bottom: 74px;
 }
