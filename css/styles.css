@@ -245,6 +245,8 @@ p {
   display: flex;
 
   padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .doings-list > .item:not(:last-child) {
@@ -301,35 +303,40 @@ p {
 }
 
 /* Footer */
+.footer-container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 
 .footer-logo {
   display: inline-block;
-  padding-top: 60px;
+
   margin-bottom: 20px;
   margin-right: auto;
   padding-right: auto;
 }
 
+.footer-addr {
+  display: block;
+  /* position: left; */
+  /* margin-left: auto; */
+
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  font-style: normal;
+}
+
 .white-text {
+  display: inline-block;
   margin-bottom: 9px;
 
   color: #ffffff;
 }
 
 .footer-mail {
+  display: inline-block;
   margin-bottom: 9px;
-}
-
-.footer-addr {
-  display: block;
-  position: left;
-  margin-left: auto;
-  padding-bottom: 60px;
-
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  font-style: normal;
 }
 
 .footer-link {
