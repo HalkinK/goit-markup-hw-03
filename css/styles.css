@@ -234,7 +234,7 @@ p {
 
 /* Doings section */
 .doings-descr {
-  padding: 94px 0;
+  padding: 0 0 94px 0;
 }
 
 .doings-title {
@@ -345,8 +345,8 @@ p {
 
 /* Portfolio */
 .portfolio-section {
-  padding-top: 114px;
-  padding-bottom: 74px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .portfolio-buttons {
