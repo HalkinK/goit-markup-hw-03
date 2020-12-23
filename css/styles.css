@@ -138,7 +138,7 @@ p {
   text-align: center;
 }
 
-.hero-title-btn {
+.hero {
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -192,7 +192,7 @@ h2 {
 }
 
 /* Advantages section */
-.advantages-descr {
+.advantages {
   padding: 94px 0;
 }
 
@@ -233,7 +233,7 @@ p {
 }
 
 /* Doings section */
-.doings-descr {
+.doings {
   padding: 0 0 94px 0;
 }
 
@@ -258,7 +258,7 @@ p {
   margin-bottom: 50px;
 }
 
-.team-descr {
+.team {
   padding: 94px 0;
 }
 .team-list {
@@ -303,7 +303,7 @@ p {
 }
 
 /* Footer */
-.footer-container {
+.footer {
   padding-top: 60px;
   padding-bottom: 60px;
 }
